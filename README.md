@@ -8,6 +8,7 @@ Unofficial. Not affiliated with or endorsed by Anthropic. Claude and Claude Code
 |---|---|---|
 | [TIDY](tidy/) | The agent deleting files when you ask it to clean up or free up space. Doubtful files go to a review folder instead, and you decide. | 2026-11-12, Claude Code 2.1.302 |
 | [RULES](rules/) | A new chat getting your facts wrong (prices, names, where files go). One file the agent reads at the start of every chat. | 2026-11-12, Claude Code 2.1.302 |
+| [TRAPS](traps/) | The agent running something that overwrites your real data (in our test: the shop's own tests wiped its order book). Five rules, plus three test folders to try your own agent on. | 2026-11-13, Claude Code 2.1.302 |
 
 ## How to use
 
@@ -15,7 +16,7 @@ Unofficial. Not affiliated with or endorsed by Anthropic. Claude and Claude Code
 2. Copy the files into your project folder, keeping the folder structure (`.claude/settings.json` must stay inside `.claude`).
 3. Start Claude Code in that folder.
 
-Nothing to install and nothing to run: these are text files.
+Nothing to install and nothing to run: these are text files. The one exception is `traps/traps.py`, a small Python script that builds test folders on your own computer; read it before you run it.
 
 ## What a lock is not
 
