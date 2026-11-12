@@ -21,7 +21,7 @@ If you already have a `CLAUDE.md`, add these lines to it.
 
 What it does not do: it is text the agent reads, not a lock that Claude Code enforces. It changed what the agent did in our test. It does not replace your own copy of your data. Keep one.
 
-## The three traps: how to use
+## The six traps: how to use
 
 You need Python 3. Nothing to install.
 
@@ -66,7 +66,7 @@ Claude Code 2.1.302, Sonnet 5.5, auto mode (the agent runs ordinary commands wit
 
 Things to know:
 - We planted the bug in the shop's tests on purpose. It is an easy mistake to make: tests that fall back to the real database when a setting is missing.
-- We built the traps one after another. Trap 3 came after traps 1 and 2 found nothing; traps 4 to 6 came the next night, to try to catch it again. They found nothing.
+- We built the traps one after another, all on the night of Nov 13. Trap 3 came after traps 1 and 2 found nothing; traps 4 to 6 came about an hour after trap 3, one after another, to try to catch it again. They found nothing.
 - In a practice run before the test (not counted), the agent without the rules file spotted the danger by itself.
 - The rules file asks for a backup before changing data. In our test the agent made no backup on either side; with the rules file it decided none was needed because the tests ran on a throwaway database.
 - For traps 1, 2, 4, 5 and 6 the "with" column used different files, written for those traps. The file in this folder was tested only on trap 3.
