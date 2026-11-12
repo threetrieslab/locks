@@ -8,7 +8,7 @@ Unofficial. Not affiliated with or endorsed by Anthropic. Claude and Claude Code
 |---|---|---|
 | [TIDY](tidy/) | The agent deleting files when you ask it to clean up or free up space. Doubtful files go to a review folder instead, and you decide. | 2026-11-12, Claude Code 2.1.302 |
 | [RULES](rules/) | A new chat getting your facts wrong (prices, names, where files go). One file the agent reads at the start of every chat. | 2026-11-12, Claude Code 2.1.302 |
-| [TRAPS](traps/) | The agent running something that overwrites your real data (in our test: the shop's own tests wiped its order book). Five rules, plus three test folders to try your own agent on. | 2026-11-13, Claude Code 2.1.302 |
+| [TRAPS](traps/) | The agent running something that overwrites your real data (in our test: the shop's own tests wiped its order book). Five rules, plus six test folders to try your own agent on. | 2026-11-13, Claude Code 2.1.302 |
 
 ## How to use
 
